@@ -14,4 +14,4 @@
    ```sh
    yarn dev
    ```
-4. **Open it in your web browser** <br> click in the localhost link that will pop up in your terminal
+4. **Open it in your web browser** <br>   click in the localhost link that will pop up in your terminal
