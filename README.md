@@ -15,4 +15,4 @@
    yarn dev
    ```
 4. **Open it in your web browser**
-   !click in the localhost link that will pop up in your terminal
+   ! click in the localhost link that will pop up in your terminal
