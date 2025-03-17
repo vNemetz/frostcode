@@ -6,7 +6,7 @@
    git clone https://github.com/vNemetz/frostcode.git
    cd frostcode
    ```
-2. **Intall the dependencies**
+2. **Install the dependencies**
    ```sh
    npm i
    ```
