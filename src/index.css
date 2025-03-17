@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import '@fontsource/inter/index.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -13,4 +17,27 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070229;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #499ed6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #273974;
+}
+
+/* Estilização para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #499ed6 #070229;
 }
