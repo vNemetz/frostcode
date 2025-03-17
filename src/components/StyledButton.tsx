@@ -17,7 +17,7 @@ export const StyledButton = (props:Props) => {
   };
 
   return (
-    <button className="hover:cursor-pointer font-bold bg-[#499ed6] py-[0.65rem] rounded-full hover:bg-[#273974] text-center mt-4 w-[10rem]"
+    <button className="hover:cursor-pointer font-bold bg-[#499ed6] py-[0.65rem] rounded-full hover:bg-[#8bc5ff] text-center mt-4 w-[10rem]"
       onClick={() => scrollToSection(props.route)}
     >
       {props.text}
